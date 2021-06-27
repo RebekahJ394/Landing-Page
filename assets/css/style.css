@@ -3,16 +3,17 @@
     padding: 0;
     margin: 0;
 }
+/*creates global variables */
 :root {
     --backgroundlight: #d9dcd6;
     --backgrounddark: #2a607c;
     --textcolor: #ffffff;
 }
-/*creates background color*/
+/*defines background color for body element*/
 body {
     background-color: var(--backgroundlight);
 }
-/*updates spacing, text color, background color, and font for header*/
+/*defines spacing, text color, background color, and font for header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,15 +26,15 @@ body {
 /*adjusts font size of header h1*/    
     font-size: 48px;
 }
-
+ /*defines text color*/
 .header h1 .seo {
     color: var(--backgroundlight);
 }
-
+/*postion defined*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
-/*float lets element float to the direction specified of the container*/
+/*float lets element float to the direction specified in the container*/
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -42,17 +43,17 @@ body {
 /*allows no marker to be shown in the list*/
     list-style-type: none;
 }
-
+/* position defined*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*text color defined. no text decoration*/
 a {
     color: var(--textcolor);
     text-decoration: none;
 }
-
+/*font-size defined for paragraph element*/
 p {
     font-size: 16px;
 }
@@ -65,23 +66,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*defines where the text floats and the spacing*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*defines where the text floats and the spacing*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*inline-block allows both height and width to be respected, width set, spacing defined*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*spacing is defined with margin and padding. clear both defines the element is not allowed to float on both sides */
+/*width and height defined, the text font and the color of the background*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,21 +94,22 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*spacing of margin added and text of color defined*/
 .benefit-lead, 
 .benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
     color: var(--textcolor);
 }
-
+/*spacicing of margin added and text centered*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3, {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*block element starts a new line and takes the whole width*/
+/*margin defined and maximum width*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -114,7 +117,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*height of area defined, background color and text color added, spacing defined*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -125,28 +128,29 @@ p {
     background-color: #0072bb;
     color: var(--textcolor);
 }
-
+/*maximum height of images defined*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
 /*defines the maximum height allowed of the images*/
     max-height: 200px;
 }
-
+/*font-size and spacing defined for these h2 elements */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*footer spacing defined, clear both defines element is not allowed to float on both sides*/
+/*font define and text centered */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*font size defined*/
 .footer h2 {
     font-size: 20px;
 }
